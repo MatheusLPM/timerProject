@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&family=Roboto:wght@300;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+
+    background-color: black;
+    box-sizing: border-box;
+    overflow: hidden;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+#container{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+#timer-container{
+
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#timer{
+
+    height: 30rem;
+    width: 30rem;
+    border: 5px solid rgb(101, 58, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+}
+
+#number{
+
+    height: 10rem;
+    width: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+
+}
+
+#horario{
+    
+    color: grey;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+#options-container{
+
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+
+}
+
+#options{
+
+    height: 8rem;
+    width: 50rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10rem;
+
+}
+
+#cancelar{
+
+    border-radius: 30px;
+    width: 10rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    line-height: 4rem;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(29, 29, 29);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#cancelar:hover{
+
+    background-color: rgb(39, 39, 36);
+    cursor: pointer;
+
+}
+
+#pausar-retomar{
+
+    border-radius: 30px;
+    width: 10rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    line-height: 4rem;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(235, 61, 61);
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+#pausar-retomar:hover{
+    
+    background-color: red;
+    cursor: pointer;
+
+}
+

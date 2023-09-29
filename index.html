@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    </head>
+    <body>
+        
+        <div id="container">
+
+            <div id="timer-container">
+                <div id="timer">
+
+                    <div id="number">00:00:00</div>
+                    <div id="horario">
+                        <span><i class="bi bi-bell-fill"></i></span>
+                        <div id="tempo">00:00</div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div id="options-container">
+
+                <div id="options">
+
+                    <div id="cancelar" onclick="limpar()">Cancelar</div>
+                    <div id="pausar-retomar" onclick="pausarRetomar()"> Pausar</div>
+
+                </div>
+
+            </div>
+            
+        </div>
+        <script src="timer.js"></script>
+
+    </body>
+</html>
